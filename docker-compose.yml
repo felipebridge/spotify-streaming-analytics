@@ -3,9 +3,9 @@ services:
     image: postgres:16
     container_name: spotify_pg
     environment:
-      POSTGRES_USER: spotify
-      POSTGRES_PASSWORD: spotify
-      POSTGRES_DB: spotify_analytics
+    env_file:
+      - .env
+    POSTGRES_DB: spotify_analytics
     ports:
       - "5432:5432"
     volumes:
