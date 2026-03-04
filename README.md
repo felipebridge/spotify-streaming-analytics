@@ -1,5 +1,7 @@
 # 🎧 Spotify Streaming Analytics – ETL (Python) + Docker (PostgreSQL) + Power BI
 
+## Dashboard
+
 ![Dashboard Página 1](docs/img1.png)
 
 ![Dashboard Página 2](docs/img2.png)
